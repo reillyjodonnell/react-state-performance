@@ -44,7 +44,7 @@ pnpm dev
 # or
 bun dev
 ```
-The application should now be running on http://localhost:3000.
+The application should now be running on http://localhost:5173.
 
 ## Features
 There's the same components running with different state mechanisms:
