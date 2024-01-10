@@ -15,7 +15,7 @@ https://github.com/reillyjodonnell/react-state-performance/assets/65147216/204b0
 Clone the repository:
 
 ```bash
-git clone https://github.com/reillyjodonnell/react-state-performance
+git clone https://github.com/reillyjodonnell/react-state-performance.git
 ```
 Navigate to the project directory:
 
