@@ -1,5 +1,6 @@
 import './App.css';
 import { Parent } from './parent';
+import { ParentWithMobX } from './parent-mobx';
 import { ParentWithContext } from './parent-with-context';
 import { ParentWithJotai } from './parent-with-jotai';
 
@@ -17,6 +18,10 @@ function App() {
       <div>
         <span>Jotai</span>
         <ParentWithJotai />
+      </div>
+      <div>
+        <span>Mobx</span>
+        <ParentWithMobX />
       </div>
     </div>
   );
