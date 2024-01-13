@@ -1,27 +1,61 @@
-# React + TypeScript + Vite
+# Re-render Comparison with State, Context, and Jotai
+This is a playground to compare renders between React state, context, and Jotai.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://github.com/reillyjodonnell/react-state-performance/assets/65147216/204b0b97-11ed-4ad9-96dc-cd566b0bf11a
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
+### Prerequisites
+- Node.js (version 12 or later)
+- A package manager (npm, yarn, pnpm, or bun)
+### Installation
+Clone the repository:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+git clone https://github.com/reillyjodonnell/react-state-performance.git
 ```
+Navigate to the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+cd react-state-performance
+```
+Install dependencies using your preferred package manager:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+The application should now be running on http://localhost:5173.
+
+## Features
+There's the same components running with different state mechanisms:
+1. React state
+2. Context
+3. Jotai
+
+To see the component re-rendering visual be sure to open up Dev Tools and enable it in the React Dev Tools tab.
+
+## Contributing
+Feel free to fork this repository and submit pull requests. You can also open issues for bugs, suggestions, or discussions.
+
+## License
+This project is licensed under the MIT License.
